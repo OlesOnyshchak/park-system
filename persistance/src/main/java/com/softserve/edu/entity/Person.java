@@ -7,8 +7,9 @@ import javax.persistence.*;
 @Entity
 public class Person {
     @Id
+    @GeneratedValue(strategy=GenerationType.AUTO)
     @Column(name = "User_Id")
-    private String id;
+    private Integer id;
 
     @Column(name = "User_Name")
     private String name;
@@ -20,14 +21,23 @@ public class Person {
     @Enumerated(value = EnumType.STRING)
     private UserStatus userStatus;
 
-    public Person(String id, String name, String surname, UserStatus userStatus) {
-        this.id = id;
+    private Integer userId;
+
+    public Person(String name, String surname, UserStatus userStatus) {
         this.name = name;
         this.surname = surname;
         this.userStatus = userStatus;
     }
 
     private Person() {}
+
+    public Integer getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Integer userId) {
+        this.userId = userId;
+    }
 
     public String getName() {
         return name;
@@ -53,11 +63,11 @@ public class Person {
         this.userStatus = userStatus;
     }
 
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 }

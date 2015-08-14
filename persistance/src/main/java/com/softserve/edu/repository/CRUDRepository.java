@@ -2,7 +2,19 @@ package com.softserve.edu.repository;
 
 import org.springframework.stereotype.Repository;
 
-@Repository
+import java.util.List;
+
 public interface CRUDRepository <T>{
+
+    void setObjectClass(Class<T> objectClass);
+
     void save (T object);
+
+    T findById(String id);
+
+    List<T> findALL();
+
+    void delete(T object);
+
+    void update(T object);
 }
