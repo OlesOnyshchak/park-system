@@ -2,14 +2,35 @@ package com.softserve.edu.entity;
 
 import com.softserve.edu.entity.util.JobType;
 
+import javax.persistence.*;
+import java.util.Set;
+
+@Entity
 public class Job {
 
+    @Id
+    @Column(name="Job_Id")
+    @GeneratedValue
     private Integer id;
+
+    @Column(name="Job_Name")
     private String name;
+
+    @Column(name = "Job_Type")
+    @Enumerated(value = EnumType.STRING)
     private JobType jobType;
-    private Integer userId;
+
+    @ManyToMany(cascade = {CascadeType.ALL})
+    @JoinTable(name="JOB_PERSON",
+            joinColumns={@JoinColumn(name="Job_Id")},
+            inverseJoinColumns={@JoinColumn(name="Person_Id")})
+    private Set<Person> personSet;
+
+    @Column(name="Job_Quantity")
     private Integer quantity;
-    private Integer plantId;
+
+    @OneToMany(mappedBy="job")
+    private Set<Plant> plantSet;
 
     public Integer getId() {
         return id;
@@ -27,14 +48,6 @@ public class Job {
         this.name = name;
     }
 
-    public Integer getPlantId() {
-        return plantId;
-    }
-
-    public void setPlantId(Integer plantId) {
-        this.plantId = plantId;
-    }
-
     public JobType getJobType() {
         return jobType;
     }
@@ -43,12 +56,12 @@ public class Job {
         this.jobType = jobType;
     }
 
-    public Integer getUserId() {
-        return userId;
+    public Set<Person> getPersonSet() {
+        return personSet;
     }
 
-    public void setUserId(Integer userId) {
-        this.userId = userId;
+    public void setPersonSet(Set<Person> personSet) {
+        this.personSet = personSet;
     }
 
     public Integer getQuantity() {
@@ -57,5 +70,13 @@ public class Job {
 
     public void setQuantity(Integer quantity) {
         this.quantity = quantity;
+    }
+
+    public Set<Plant> getPlantSet() {
+        return plantSet;
+    }
+
+    public void setPlantSet(Set<Plant> plantSet) {
+        this.plantSet = plantSet;
     }
 }

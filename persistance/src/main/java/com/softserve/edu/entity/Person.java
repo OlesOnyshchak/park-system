@@ -3,25 +3,27 @@ package com.softserve.edu.entity;
 import com.softserve.edu.entity.util.UserStatus;
 
 import javax.persistence.*;
+import java.util.Set;
 
 @Entity
 public class Person {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
-    @Column(name = "User_Id")
+    @Column(name = "Person_Id")
     private Integer id;
 
-    @Column(name = "User_Name")
+    @Column(name = "Person_Name")
     private String name;
 
-    @Column(name = "User_Surname")
+    @Column(name = "Person_Surname")
     private String surname;
 
-    @Column(name = "User_Status")
+    @Column(name = "Person_Status")
     @Enumerated(value = EnumType.STRING)
     private UserStatus userStatus;
 
-    private Integer userId;
+    @ManyToMany(mappedBy="personSet")
+    private Set<Job> jobId;
 
     public Person(String name, String surname, UserStatus userStatus) {
         this.name = name;
@@ -29,15 +31,7 @@ public class Person {
         this.userStatus = userStatus;
     }
 
-    private Person() {}
-
-    public Integer getUserId() {
-        return userId;
-    }
-
-    public void setUserId(Integer userId) {
-        this.userId = userId;
-    }
+    public Person() {}
 
     public String getName() {
         return name;
@@ -69,5 +63,13 @@ public class Person {
 
     public void setId(Integer id) {
         this.id = id;
+    }
+
+    public Set<Job> getJobId() {
+        return jobId;
+    }
+
+    public void setJobId(Set<Job> jobId) {
+        this.jobId = jobId;
     }
 }

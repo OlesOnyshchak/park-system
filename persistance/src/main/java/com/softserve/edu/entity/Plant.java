@@ -2,10 +2,9 @@ package com.softserve.edu.entity;
 
 import com.softserve.edu.entity.util.PlantType;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
+@Entity
 public class Plant {
 
     @Id
@@ -13,6 +12,9 @@ public class Plant {
     private Integer id;;
     private PlantType plantType;
 
+    @ManyToOne
+    @JoinColumn(name="Job_Id")
+    private Job job;
 
     public PlantType getPlantType() {
         return plantType;
@@ -28,5 +30,13 @@ public class Plant {
 
     public void setId(Integer id) {
         this.id = id;
+    }
+
+    public Job getJob() {
+        return job;
+    }
+
+    public void setJob(Job job) {
+        this.job = job;
     }
 }
