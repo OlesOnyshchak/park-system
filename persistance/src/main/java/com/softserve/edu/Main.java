@@ -5,7 +5,6 @@ import com.softserve.edu.entity.Job;
 import com.softserve.edu.entity.Person;
 import com.softserve.edu.entity.Plant;
 import com.softserve.edu.entity.util.JobType;
-import com.softserve.edu.entity.util.PlantType;
 import com.softserve.edu.entity.util.UserStatus;
 import com.softserve.edu.repository.CRUDRepository;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

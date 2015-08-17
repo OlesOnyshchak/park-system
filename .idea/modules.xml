@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/park-system.iml" filepath="$PROJECT_DIR$/park-system.iml" />
-      <module fileurl="file://$PROJECT_DIR$/persistance/persistence.iml" filepath="$PROJECT_DIR$/persistance/persistence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/persistance/persistance.iml" filepath="$PROJECT_DIR$/persistance/persistance.iml" />
       <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
     </modules>

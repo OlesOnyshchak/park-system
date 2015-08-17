@@ -25,7 +25,6 @@ public class PersistanceConfig {
     private Environment env;
 
     @Bean
-    @Primary
     public SharedEntityManagerBean productionEntityManager()
     {
         SharedEntityManagerBean entityManagerBean = new SharedEntityManagerBean();
@@ -45,7 +44,6 @@ public class PersistanceConfig {
     }
 
     @Bean
-    @Primary
     public PlatformTransactionManager productionTransactionManager()
     {
         JpaTransactionManager transactionManager = new JpaTransactionManager();

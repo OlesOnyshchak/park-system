@@ -1,11 +1,9 @@
 package com.softserve.edu.repository;
 
-import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service
 public interface CRUDRepository <T>{
 
     void setObjectClass(Class<T> objectClass);
