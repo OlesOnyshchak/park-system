@@ -18,6 +18,12 @@ public class Person {
     @Column(name = "Person_Surname")
     private String surname;
 
+    @Column(name = "Person_Login")
+    private String login;
+
+    @Column(name = "Person_Password")
+    private String password;
+
     @Column(name = "Person_Status")
     @Enumerated(value = EnumType.STRING)
     private UserStatus userStatus;
@@ -71,5 +77,21 @@ public class Person {
 
     public void setJobId(Set<Job> jobId) {
         this.jobId = jobId;
+    }
+
+    public String getLogin() {
+        return login;
+    }
+
+    public void setLogin(String login) {
+        this.login = login;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 }
