@@ -1,4 +1,4 @@
-angular.module('NoteWrangler',['ngRoute']).config(function($routeProvider){
+angular.module('ParkSystem',['ngRoute']).config(function($routeProvider){
     $routeProvider
         .when('/user',{
             templateUrl:'app/templates/pages/user/index.html'
@@ -10,7 +10,7 @@ angular.module('NoteWrangler',['ngRoute']).config(function($routeProvider){
             templateUrl: 'app/templates/pages/welcome/index.html'
         })
         .when('/',{
-            redirectTo: '/user'
+            redirectTo: '/welcome'
         })
-        .otherwise({ redirectTo: '/admin'});
+        .otherwise({ redirectTo: '/welcome'});
 });

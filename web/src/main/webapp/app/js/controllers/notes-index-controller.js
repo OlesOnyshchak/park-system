@@ -1,4 +1,4 @@
-angular.module('NoteWrangler')
+angular.module('ParkSystem')
     .controller('NotesIndexController', ['$http','$scope', function($http,$scope) {
         var controller = this;
 
