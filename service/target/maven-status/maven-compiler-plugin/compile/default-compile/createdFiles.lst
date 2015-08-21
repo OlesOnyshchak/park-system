@@ -1,4 +1,8 @@
+com\softserve\edu\service\impl\AdminServiceImpl.class
 com\softserve\edu\service\JobService.class
 com\softserve\edu\service\impl\JobServiceImpl.class
+com\softserve\edu\service\AdminService.class
+com\softserve\edu\service\WelcomeService.class
+com\softserve\edu\service\impl\WelcomeServiceImpl.class
 com\softserve\edu\MainTest.class
 com\softserve\edu\config\ServiceConfig.class

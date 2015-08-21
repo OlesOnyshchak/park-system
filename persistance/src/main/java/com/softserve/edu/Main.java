@@ -57,10 +57,6 @@ public class Main <T>{
         System.out.println(list.get(0).getName());
     }
 
-    public void update(CRUDRepository<Person> crudRepository){
-        crudRepository.update(new Person("Someone", "Onyshchak", UserStatus.USER));
-    }
-
     public void findById(CRUDRepository<Person> crudRepository){
         crudRepository.setObjectClass(Person.class);
         Person person = crudRepository.findById("1");

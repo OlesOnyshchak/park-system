@@ -7,6 +7,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableTransactionManagement
-@ComponentScan("com.softserve.edu")
+@ComponentScan("com.softserve.edu.service")
 @Import(PersistanceConfig.class)
 public class ServiceConfig {}

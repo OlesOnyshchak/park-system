@@ -10,7 +10,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class JobServiceImpl implements JobService{
 
-
     @Autowired
     @Qualifier("CRUDRepositoryImpl")
     CRUDRepository<Job> crudRepository;

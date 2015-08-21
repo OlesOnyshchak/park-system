@@ -31,10 +31,12 @@ public class Person {
     @ManyToMany(mappedBy="personSet")
     private Set<Job> jobId;
 
-    public Person(String name, String surname, UserStatus userStatus) {
+    public Person(String name, String surname, String login, String password) {
         this.name = name;
         this.surname = surname;
-        this.userStatus = userStatus;
+        this.userStatus = UserStatus.USER;
+        this.login = login;
+        this.password = password;
     }
 
     public Person() {}
