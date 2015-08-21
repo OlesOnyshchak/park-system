@@ -23,7 +23,6 @@ public class WelcomeController {
 
     @RequestMapping(value = "registration", method = RequestMethod.POST)
     public void getNewUser(@RequestBody NewUserDTO newUserDTO) {
-        System.out.println(newUserDTO.toString());
         welcomeService.save(
                 new Person(
                         newUserDTO.getName(), newUserDTO.getSurname(), newUserDTO.getLogin(), newUserDTO.getPassword()
