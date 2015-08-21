@@ -19,6 +19,7 @@
         <project.primary.name>park-system</project.primary.name>
         <spring.version>4.1.7.RELEASE</spring.version>
         <java.version>1.6</java.version>
+        <jackson-version>2.5.3</jackson-version>
     </properties>
 
     <build>

@@ -1,0 +1,6 @@
+com\softserve\edu\controller\WelcomeController.class
+com\softserve\edu\controller\ParkController.class
+com\softserve\edu\config\WebApp.class
+com\softserve\edu\controller\GreetingController.class
+com\softserve\edu\dto\welcome\NewUserDTO.class
+com\softserve\edu\config\WebConfig.class
