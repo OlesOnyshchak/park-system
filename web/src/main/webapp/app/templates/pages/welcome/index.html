@@ -1,21 +1,15 @@
 <div class="navigation">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4">
-                <a class="logo" href="#">LOGO</a>
-            </div>
-            <div class="col-sm-8 text-right hidden-xs">
-                <ul class="list-inline circle-icons">
-                    <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                    <li><a href="#"><span class="fa fa-youtube-play"></span></a></li>
-                    <li><a href="#"><span class="fa fa-rss"></span></a></li>
-                    <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                    <li><a href="#"><span class="fa fa-bars"></span></a></li>
+    <div class=" navbar navbar-inverse navbar-fixed-top">
+        <a href='/' class = 'navbar-brand'></a>
+                <ul class="nav nav-pills navbar-right">
+                    <li><a href="#" class = "text-white">Home</a></li>
+                    <li><a href="#" class = "text-white">About</a></li>
+                    <li><a href="#registration" class = "text-white">Registration</a></li>
+                    <li><a href="#" class = "text-white">Sign in</a></li>
                 </ul>
-            </div>
-        </div>
     </div>
 </div>
+
 <div class="banner">
     <div class="container">
         <div class="banner-contentarea">
@@ -23,40 +17,39 @@
                 <h1>PARK - SYSTEM</h1>
                 <p>A park is an area of natural, semi-natural, or planted space set aside for human
                     enjoyment and recreation or for the protection of wildlife or natural habitats.</p>
-                <p><a href="#" class="btn btn-theme">Sign In</a> <a href="#" class="btn btn-theme">Join Now</a></p>
             </div>
         </div>
     </div>
-</div>
 
-<div id="join" class="section1 section text-white">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6 col-sm-offset-2 text-center">
-                <h2>Sign In</h2>
-                <p><input type="login" placeholder="login" class="form-control"></p>
-                <p><input type="password" placeholder="password" class="form-control"></p>
-                <p class="text-center"><input type="submit" value="Submit" class="btn btn-theme btn-submit"><p>
+    <div id="join" class="section6 section text-center text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-2 text-center">
+                    <h2>Sign In</h2>
+                    <p><input type="login" placeholder="login" class="form-control"></p>
+                    <p><input type="password" placeholder="password" class="form-control"></p>
+                    <p class="text-center"><input type="submit" value="Sign in" class="btn btn-success btn-submit"><p>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<div id="sign" class="section3 section text-white">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6 col-sm-offset-2 text-center">
-                <h2>Registration</h2>
-                <p><input type="name" placeholder="name" class="form-control" ng-model="registrationInfo.name"></p>
-                <p><input type="surname" placeholder="Email" class="form-control"  ng-model="registrationInfo.surname"></p>
-                <p><input type="login" placeholder="login" class="form-control" ng-model="registrationInfo.login"></p>
-                <p><input type="password" placeholder="password" class="form-control" ng-model="registrationInfo.password"></p>
-                <p class="text-center">
-                    <button  ng-click="saveRegistrationInfo(registrationInfo)"  class="btn btn-theme btn-submit">Sign up</button>
-                    <span>{{registrationInfo}}</span>
-                <p>
+    <div id="registration" class="section6 section text-center text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-2 text-center">
+                    <h2>Registration</h2>
+                    <p><input type="name" placeholder="name" class="form-control" ng-model="registrationInfo.name"></p>
+                    <p><input type="surname" placeholder="Email" class="form-control"  ng-model="registrationInfo.surname"></p>
+                    <p><input type="login" placeholder="login" class="form-control" ng-model="registrationInfo.login"></p>
+                    <p><input type="password" placeholder="password" class="form-control" ng-model="registrationInfo.password"></p>
+                    <p class="text-center">
+                        <button  ng-click="saveRegistrationInfo(registrationInfo)"  class="btn btn-success btn-submit">Sign up</button>
+                        <span>{{registrationInfo}}</span>
+                    <p>
+                </div>
+
             </div>
-
         </div>
     </div>
 </div>

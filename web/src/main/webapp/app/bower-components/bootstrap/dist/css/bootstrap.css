@@ -235,6 +235,7 @@ th {
     background: #fff !important;
   }
   .navbar {
+    width :100%;
     display: none;
   }
   .table td,
