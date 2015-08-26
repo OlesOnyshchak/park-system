@@ -2,269 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c18b2934-b00e-4184-89e0-63d839f5ae18" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/admin/nw-category-item.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/nw-category-item.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/admin/nw-category-select.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/nw-category-select.js" />
-      <change type="DELETED" beforePath="D:\mm\park-system\persistance\target\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\persistance\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\persistance\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\persistance\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\service\target\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\service\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\service\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\service\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\target\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\tomcat\logs\access_log.2015-08-19" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\tomcat\logs\access_log.2015-08-20" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\tomcat\logs\access_log.2015-08-21" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\css\theme.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\controllers.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\controllers\notes-create-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\controllers\notes-index-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\controllers\user-create-controller.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\main.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\angular-rote.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\angular.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\angular-mocks\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\angular-mocks\README.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\angular-mocks\angular-mocks.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\angular-mocks\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\angular-mocks\ngAnimateMock.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\angular-mocks\ngMock.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\angular-mocks\ngMockE2E.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\angular-mocks\package.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\angular-route\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\angular-route\README.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\angular-route\angular-route.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\angular-route\angular-route.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\angular-route\angular-route.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\angular-route\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\angular-route\index.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\angular-route\package.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\angular\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\angular\README.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\angular\angular-csp.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\angular\angular.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\angular\angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\angular\angular.min.js.gzip" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\angular\angular.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\angular\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\angular\index.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\angular\package.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\README.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\dist\css\bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\dist\css\bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\dist\css\bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\dist\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\dist\css\bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\dist\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\dist\js\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\dist\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\grunt\bs-glyphicons-data-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\grunt\bs-lessdoc-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\grunt\bs-raw-files-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\grunt\shrinkwrap.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\js\affix.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\js\alert.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\js\button.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\js\carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\js\collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\js\dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\js\modal.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\js\popover.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\js\scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\js\tab.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\js\tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\js\transition.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\alerts.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\badges.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\bootstrap.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\breadcrumbs.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\button-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\carousel.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\close.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\code.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\component-animations.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\dropdowns.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\forms.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\glyphicons.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\grid.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\input-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\jumbotron.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\labels.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\list-group.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\media.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\modals.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\navbar.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\navs.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\normalize.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\pager.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\panels.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\popovers.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\print.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\progress-bars.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\responsive-utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\scaffolding.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\tables.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\theme.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\thumbnails.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\tooltip.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\type.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\variables.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\less\wells.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\package.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\test-infra\README.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\test-infra\npm-shrinkwrap.canonical.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\test-infra\requirements.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\test-infra\s3_cache.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\test-infra\sauce_browsers.yml" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\bootstrap\test-infra\uncached-npm-install.sh" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\MIT-LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\dist\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\dist\jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\dist\jquery.min.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\ajax.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\ajax\jsonp.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\ajax\load.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\ajax\parseJSON.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\ajax\parseXML.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\ajax\script.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\ajax\var\nonce.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\ajax\var\rquery.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\ajax\xhr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\attributes.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\attributes\attr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\attributes\classes.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\attributes\prop.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\attributes\support.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\attributes\val.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\callbacks.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\core.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\core\access.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\core\init.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\core\parseHTML.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\core\ready.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\core\var\rsingleTag.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\css.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\css\addGetHookIf.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\css\curCSS.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\css\defaultDisplay.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\css\hiddenVisibleSelectors.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\css\support.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\css\swap.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\css\var\cssExpand.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\css\var\getStyles.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\css\var\isHidden.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\css\var\rmargin.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\css\var\rnumnonpx.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\data.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\data\Data.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\data\accepts.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\data\var\data_priv.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\data\var\data_user.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\deferred.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\deprecated.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\dimensions.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\effects.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\effects\Tween.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\effects\animatedSelector.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\event.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\event\ajax.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\event\alias.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\event\support.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\exports\amd.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\exports\global.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\intro.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\manipulation.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\manipulation\_evalUrl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\manipulation\support.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\manipulation\var\rcheckableType.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\offset.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\outro.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\queue.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\queue\delay.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\selector-native.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\selector-sizzle.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\selector.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\serialize.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\sizzle\dist\sizzle.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\sizzle\dist\sizzle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\sizzle\dist\sizzle.min.map" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\traversing.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\traversing\findFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\traversing\var\rneedsContext.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\var\arr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\var\class2type.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\var\concat.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\var\hasOwn.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\var\indexOf.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\var\pnum.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\var\push.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\var\rnotwhite.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\var\slice.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\var\strundefined.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\var\support.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\var\toString.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\bower_components\jquery\src\wrap.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\js\vendor\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\partials\phone-detail.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\partials\phone-list.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\templates\package-info" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\templates\pages\package-info" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\home.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\viewStudents.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/persistance/target/persistance-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/persistance/target/persistance-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/dependency/persistance-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/web/target/dependency/persistance-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/lib/persistance-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/lib/persistance-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/target/service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/service/target/service-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/dependency/service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/web/target/dependency/service-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/lib/service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/lib/service-1.0-SNAPSHOT.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/registration.html" />
+      <change type="DELETED" beforePath="D:\mm\park-system\web\src\main\webapp\app\js\controllers\nw-category-item.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\mm\park-system\web\src\main\webapp\app\js\controllers\nw-category-select.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\mm\park-system\web\src\main\webapp\app\templates\pages\admin\nw-category-item.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/admin-controller.js" afterPath="$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/admin-controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/js/controllers/admin-controller.js" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/js/controllers/admin-controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/persistance/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/persistance/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/webapp/app/index.html" afterPath="$PROJECT_DIR$/web/src/main/webapp/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/webapp/app/js/app.js" afterPath="$PROJECT_DIR$/web/src/main/webapp/app/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/js/app.js" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/admin/index.html" afterPath="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/admin/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/index.html" afterPath="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/index.html" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/templates/pages/admin/index.html" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/templates/pages/admin/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/templates/pages/welcome/index.html" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/templates/pages/welcome/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/tomcat/conf/logging.properties" afterPath="$PROJECT_DIR$/web/target/tomcat/conf/logging.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/persistance/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/persistance/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/service/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/web/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/webapp/app/images/css/theme.css" afterPath="$PROJECT_DIR$/web/src/main/webapp/app/images/css/theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/images/css/theme.css" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/images/css/theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/tomcat/conf/tomcat-users.xml" afterPath="$PROJECT_DIR$/web/target/tomcat/conf/tomcat-users.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web.iml" afterPath="$PROJECT_DIR$/web/web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/tomcat/conf/web.xml" afterPath="$PROJECT_DIR$/web/target/tomcat/conf/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\mm\park-system\web\src\main\webapp\app\templates\pages\admin\nw-category-select.html" afterPath="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/about.html" />
     </list>
     <ignored path="park-system.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -296,16 +49,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.384615" vertical-offset="4" max-vertical-offset="901">
-              <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="admin-controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/admin-controller.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -316,21 +59,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36008918" vertical-offset="0" max-vertical-offset="897">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+              <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/index.html">
+      <file leaf-file-name="registration.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/registration.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="1309">
-              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+            <state vertical-scroll-proportion="-18.461538" vertical-offset="132" max-vertical-offset="1088">
+              <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="850">
+              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome-controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/welcome-controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <caret line="3" column="35" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -339,8 +102,38 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/admin/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="306">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="357">
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="799">
+              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="782">
+              <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/user/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.09758898" vertical-offset="0" max-vertical-offset="871">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -349,48 +142,8 @@
       <file leaf-file-name="theme.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/images/css/theme.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="4114">
-              <caret line="161" column="23" selection-start-line="161" selection-start-column="23" selection-end-line="161" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nw-category-item.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/admin/nw-category-item.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="187">
-              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nw-category-item.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/nw-category-item.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nw-category-select.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/nw-category-select.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nw-category-select.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/admin/nw-category-select.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="4114">
+              <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -404,11 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/src/main/java/webapp/Hello.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/softserve/edu/controller/HelloWorldController.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/webapp/WEB-INF/index.html" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/softserve/edu/config/WebApp.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/softserve/edu/controller/GreetingController.java" />
         <option value="$PROJECT_DIR$/persistance/src/main/java/com/softserve/edu/entity/Job.java" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/app/css/theme.css" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/UserCreateController.js" />
@@ -426,7 +174,6 @@
         <option value="$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/notes-index-controller.js" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/user/index.html" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/user-controller.js" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/app/js/app.js" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/app/js/services/admin-service.js" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/app/js/services/user-service.js" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/softserve/edu/controller/ParkController.java" />
@@ -446,15 +193,21 @@
         <option value="$PROJECT_DIR$/web/src/main/java/com/softserve/edu/controller/WelcomeController.java" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/app/js/services/welcome-service.js" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/welcome-controller.js" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/admin-controller.js" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/admin/nw-category-item.html" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/admin/index.html" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/nw-category-item.js" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/admin/nw-category-select.html" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/nw-category-select.js" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/admin/index.html" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/app/js/directives/nw-card.js" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/admin-controller.js" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/app/js/directives/AdminDirective.js" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/app/index.html" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/app/images/css/theme.css" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/app/js/app.js" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/about.html" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/index.html" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/registration.html" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/login.html" />
       </list>
     </option>
   </component>
@@ -625,128 +378,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="welcome" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="park-system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="park-system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="park-system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="park-system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="park-system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="park-system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -845,7 +476,49 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="park-system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="park-system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1202,6 +875,7 @@
     <property name="editorconfig.notification" value="Applied .editorconfig settings" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1589,7 +1263,7 @@
       <workItem from="1440062710716" duration="10426000" />
       <workItem from="1440074979089" duration="27477000" />
       <workItem from="1440513618810" duration="626000" />
-      <workItem from="1440580010056" duration="3008000" />
+      <workItem from="1440580010056" duration="10443000" />
     </task>
     <task id="LOCAL-00001" summary="add entities">
       <created>1439545721099</created>
@@ -1651,11 +1325,17 @@
       <option name="project" value="LOCAL" />
       <updated>1440161710345</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix">
+      <created>1440583033576</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1440583033576</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114456000" />
+    <option name="totallyTimeSpent" value="121891000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1684,6 +1364,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.61189187" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1707,7 +1388,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.61189187" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.8886486" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1739,7 +1419,8 @@
     <MESSAGE value="add post request" />
     <MESSAGE value="add getNewUser method" />
     <MESSAGE value="add welcome-service" />
-    <option name="LAST_COMMIT_MESSAGE" value="add welcome-service" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1844,13 +1525,6 @@
     <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/images/testimonial.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/user/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -2021,14 +1695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/welcome-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/com/softserve/edu/config/ServiceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
@@ -2045,6 +1711,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.192307" vertical-offset="30" max-vertical-offset="901">
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/images/css/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="4114">
+          <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/admin-controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
@@ -2053,74 +1735,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/admin/nw-category-item.html">
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/welcome-controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="187">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/admin/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="306">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/admin/nw-category-select.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="897">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/nw-category-item.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/nw-category-select.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/images/css/theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="4114">
-          <caret line="161" column="23" selection-start-line="161" selection-start-column="23" selection-end-line="161" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.384615" vertical-offset="4" max-vertical-offset="901">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="1309">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="357">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36008918" vertical-offset="0" max-vertical-offset="897">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.461538" vertical-offset="132" max-vertical-offset="1088">
+          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="850">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="782">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="799">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/user/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09758898" vertical-offset="0" max-vertical-offset="871">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>

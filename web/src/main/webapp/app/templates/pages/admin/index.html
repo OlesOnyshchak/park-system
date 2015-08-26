@@ -1,13 +1,16 @@
 <div class="users-wrapper">
     <h1>Admin</h1>
 </div>
-<nw-category-select></nw-category-select>
-<div class="sort-menu">
-<h2>Categories</h2>
-    <div class = "card">
-        <nw-category-item
-            ng-repeat = "category in categories"
-            category = "category">
-        </nw-category-item>
+
+<div class="note-wrapper">
+    <div class="note-content">
+        <div class="notes-header">
+            <h1 title="Notes">Notes</h1>
+        </div>
+        <div class="note-wrapper">
+            <a class="card-notes" ng-repeat="note in notes">
+                <nw-card header="note.title"></nw-card>
+            </a>
+        </div>
     </div>
 </div>

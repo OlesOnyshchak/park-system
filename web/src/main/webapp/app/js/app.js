@@ -12,6 +12,16 @@ angular.module('ParkSystem',['ngRoute']).config(function($routeProvider){
             templateUrl: 'app/templates/pages/welcome/index.html',
             controller: 'WelcomeController'
         })
+        .when('/welcome/about', {
+            templateUrl: 'app/templates/pages/welcome/about.html'
+        })
+        .when('/welcome/registration', {
+            templateUrl: 'app/templates/pages/welcome/registration.html',
+            controller: 'WelcomeController'
+        })
+        .when('/welcome/login', {
+            templateUrl: 'app/templates/pages/welcome/login.html'
+        })
         .when('/',{
             redirectTo: '/welcome'
         })
