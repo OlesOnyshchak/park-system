@@ -53,7 +53,7 @@ img{max-width: 100%;}
 	background: #c8abad;
 	font-size: 2em;
 	position: relative;
-	 background: url(../images/banner.jpg);
+	 background: url(../banner.jpg);
 	  background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -91,11 +91,12 @@ img{max-width: 100%;}
 	bottom: 0;
 	text-align: center;
 }
-.section{padding: 25px 0 40px;position: relative;}
+.section{padding: 50px 0 100px;position: relative;}
 .section1{background: #D2E3CF;}
 .section3{background: #849b8a;}
 .section4,.section2{margin-bottom: 20px;}
 .section5{background: #2A9B5B;}
+.section6{background: #010302;}
 .well{
 	background: none;
 	border: none;
@@ -158,7 +159,7 @@ img{max-width: 100%;}
 	height: 28px;
 	top: 100%;
 	left: 95px;
-	background: url(../images/testimonial.png);
+	background: url(../testimonial.png);
 }
 .box .svg{
 	fill: red;
@@ -167,7 +168,7 @@ img{max-width: 100%;}
 
 .box{
 	min-height: 150px;
-	background: url('../images/green.svg') #fff no-repeat center top;
+	background: url('../green.svg') #fff no-repeat center top;
 	background-size: auto 155px;
 	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
@@ -178,7 +179,7 @@ img{max-width: 100%;}
 	margin-right: auto;
 }
 .box2{
-	background-image: url(../images/blue.svg);
+	background-image: url(../blue.svg);
 	position: relative;
 	top: -23px;
 }

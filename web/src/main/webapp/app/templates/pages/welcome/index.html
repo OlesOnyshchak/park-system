@@ -2,7 +2,7 @@
     <div class=" navbar navbar-inverse navbar-fixed-top">
         <a href='/' class = 'navbar-brand'></a>
                 <ul class="nav nav-pills navbar-right">
-                    <li><a href="#" class = "text-white">Home</a></li>
+                    <li><a href="#/welcome" class = "text-white">Home</a></li>
                     <li><a href="#" class = "text-white">About</a></li>
                     <li><a href="#registration" class = "text-white">Registration</a></li>
                     <li><a href="#" class = "text-white">Sign in</a></li>
@@ -21,7 +21,7 @@
         </div>
     </div>
 
-    <div id="join" class="section6 section text-center text-white">
+    <div id="join" class="section text-center text-white">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-sm-offset-2 text-center">
@@ -34,7 +34,7 @@
         </div>
     </div>
 
-    <div id="registration" class="section6 section text-center text-white">
+    <div id="registration" class="section text-center text-white">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-sm-offset-2 text-center">
@@ -45,7 +45,6 @@
                     <p><input type="password" placeholder="password" class="form-control" ng-model="registrationInfo.password"></p>
                     <p class="text-center">
                         <button  ng-click="saveRegistrationInfo(registrationInfo)"  class="btn btn-success btn-submit">Sign up</button>
-                        <span>{{registrationInfo}}</span>
                     <p>
                 </div>
 
