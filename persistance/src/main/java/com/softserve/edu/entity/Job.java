@@ -16,6 +16,9 @@ public class Job {
     @Column(name="Job_Name")
     private String name;
 
+    @Column(name="Job_Description")
+    private String description;
+
     @Column(name = "Job_Type")
     @Enumerated(value = EnumType.STRING)
     private JobType jobType;
@@ -31,6 +34,23 @@ public class Job {
 
     @OneToMany(mappedBy="job")
     private Set<Plant> plantSet;
+
+    public Job(String name, String description, Set<Person> personSet, Integer quantity, Set<Plant> plantSet) {
+        this.name = name;
+        this.description = description;
+        this.personSet = personSet;
+        this.quantity = quantity;
+        this.plantSet = plantSet;
+    }
+    public Job(){}
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 
     public Integer getId() {
         return id;

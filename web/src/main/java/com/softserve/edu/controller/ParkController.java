@@ -9,8 +9,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class ParkController {
 
-    @RequestMapping(value = {"/", "/home"})
+    @RequestMapping(value = {"/welcome"})
     public String showWelcomePage() {
         return "app/index.html";
     }
+
 }

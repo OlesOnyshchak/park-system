@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" ng-app="ParkSystem">
+<html lang="en" ng-app="ParkSystem" >
 <head>
 
   <script src="app/bower-components/angular/angular.js"></script>
@@ -13,6 +13,7 @@
 
 
   <script src="app/js/services/welcome-service.js"></script>
+  <script src="app/js/services/admin-service.js"></script>
 
   <script src="app/bower-components/angular-route/angular-route.js"></script>
 
@@ -36,13 +37,62 @@
   <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 
-
-
   <![endif]-->
 </head>
-<body>
 
-<div ng-view></div>
+<body >
+  <div class="navigation" ng-hide="hide">
+    <div class=" navbar navbar-inverse navbar-fixed-top">
+      <ul class="nav nav-pills navbar-right">
+        <li><a href="#/home" class="text-white">Home</a></li>
+        <li><a href="#/about" class="text-white">About</a></li>
+        <li><a href="#/registration" class="text-white">Registration</a></li>
+        <li><a href="#/login" class="text-white">Sign in</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="navigation" ng-hide="!hide" ng-controller="AdminController">
+    <div class=" navbar navbar-inverse navbar-fixed-top">
+      <ul class="nav nav-pills navbar-right">
+        <li  ng-click="setActiveTab(0)"><a href="#/admin" class="text-white">Create job</a></li>
+        <li  ng-click="setActiveTab(1)"><a href="#/admin" class="text-white">Verify job</a></li>
+        <li  ng-click="setActiveTab(2)"><a href="#/admin" class="text-white">Archive job</a></li>
+        <li  ng-click="setActiveTab(3)"><a href="#/admin" class="text-white">Change role</a></li>
+        <li  ng-click="setActiveTab(4)"><a href="#/admin" class="text-white">Add plant</a></li>
+        <li  ng-click="setActiveTab(5)"><a href="#/admin" class="text-white">Show plant</a></li>
+        <li  ng-click="setActiveTab(6)"><a href="#/admin" class="text-white">Show plant</a></li>
+        <li  ng-click="setActiveTab(7)"><a href="#/admin" class="text-white">Your profile</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="banner">
+    <div class="container">
+      <div class="banner-contentarea">
+        <div class="banner-content text-center text-white">
+
+          <div ng-view></div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer text-center">
+      <p class="4">&copy; Copyright 2015</p>
+
+      <div class="text-right circle-icons inverse-icons">
+        <ul class="list-unstyled list-inline">
+          <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+          <li><a href="#"><span class="fa fa-youtube-play"></span></a></li>
+          <li><a href="#"><span class="fa fa-rss"></span></a></li>
+          <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>`

@@ -1,16 +1,55 @@
-<div class="users-wrapper">
-    <h1>Admin</h1>
-</div>
+<div class="users-wrapper bg-success">
+    <div ng-hide="admin[0]">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-2 text-center" ng-hide="myVar">
+                    <h2>New Job</h2>
 
-<div class="note-wrapper">
-    <div class="note-content">
-        <div class="notes-header">
-            <h1 title="Notes">Notes</h1>
-        </div>
-        <div class="note-wrapper">
-            <a class="card-notes" ng-repeat="note in notes">
-                <nw-card header="note.title"></nw-card>
-            </a>
+                    <p><input type="name" placeholder="name" class="form-control" ng-model="createJob.name"></p>
+
+                    <p><input type="jobType" placeholder="type" class="form-control" ng-model="createJob.jobType"></p>
+
+                    <p><input type="jobDesc" placeholder="description" class="form-control"
+                              ng-model="createJob.description"></p>
+
+                    <p><input type="personQuantity" placeholder="person quantity" class="form-control" ng-model="createJob.quantity">
+                    </p>
+
+                    <p class="text-center">
+                        <button ng-click="saveJob(createJob)" class="btn  btn-default">
+                            save
+                        </button>
+                    <p>
+                </div>
+            </div>
         </div>
     </div>
+
+    <div ng-hide="admin[4]">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-2 text-center" ng-hide="myVar">
+                    <h2>New plant</h2>
+
+                    <p><input type="name" placeholder="name" class="form-control" ng-model="addPlant.name"></p>
+
+                    <p><input type="jobType" placeholder="type" class="form-control" ng-model="addPlant.plantType"></p>
+
+                    <p><input type="jobDesc" placeholder="description" class="form-control"
+                              ng-model="addPlant.description"></p>
+
+                    <p class="text-center">
+                        <button ng-click="savePlant(addPlant)" class="btn btn-default">
+                            save
+                        </button>
+                    <p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
 </div>
+
+
+

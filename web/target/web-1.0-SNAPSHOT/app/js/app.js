@@ -8,22 +8,22 @@ angular.module('ParkSystem',['ngRoute']).config(function($routeProvider){
             templateUrl: 'app/templates/pages/admin/index.html',
             controller: 'AdminController'
         })
-        .when('/welcome', {
-            templateUrl: 'app/templates/pages/welcome/index.html',
+        .when('/home', {
+            templateUrl: 'app/templates/pages/welcome/home.html',
             controller: 'WelcomeController'
         })
-        .when('/welcome/about', {
+        .when('/about', {
             templateUrl: 'app/templates/pages/welcome/about.html'
         })
-        .when('/welcome/registration', {
+        .when('/registration', {
             templateUrl: 'app/templates/pages/welcome/registration.html',
             controller: 'WelcomeController'
         })
-        .when('/welcome/login', {
+        .when('/login', {
             templateUrl: 'app/templates/pages/welcome/login.html'
         })
         .when('/',{
-            redirectTo: '/welcome'
+            redirectTo: '/home'
         })
-        .otherwise({ redirectTo: '/welcome'});
+        .otherwise({ redirectTo: '/home'});
 });
