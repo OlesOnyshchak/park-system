@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c18b2934-b00e-4184-89e0-63d839f5ae18" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/softserve/edu/controller/AdminController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/softserve/edu/config/AuthFailure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/softserve/edu/config/AuthSuccess.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/softserve/edu/dto/admin/NewJobDTO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/softserve/edu/config/SecurityConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/java/com/softserve/edu/config/SecurityWebApplicationInitializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/home.html" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\src\main\java\com\softserve\edu\controller\GreetingController.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\src\main\webapp\app\js\app.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\src\main\webapp\app\templates\pages\welcome\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\classes\com\softserve\edu\controller\GreetingController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\dependency\spring-aop-4.1.7.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\WEB-INF\classes\com\softserve\edu\controller\GreetingController.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\WEB-INF\lib\spring-aop-4.1.7.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\mm\park-system\web\target\web-1.0-SNAPSHOT\app\templates\pages\welcome\index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/persistance/target/classes/com/softserve/edu/entity/Job.class" afterPath="$PROJECT_DIR$/persistance/target/classes/com/softserve/edu/entity/Job.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/classes/com/softserve/edu/controller/ParkController.class" afterPath="$PROJECT_DIR$/web/target/classes/com/softserve/edu/controller/ParkController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/softserve/edu/controller/ParkController.class" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/softserve/edu/controller/ParkController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/src/main/webapp/app/images/job-img.jpg" />
+      <change type="DELETED" beforePath="D:\mm\park-system\web\target\tomcat\logs\access_log.2015-08-27" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/persistance/target/persistance-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/persistance/target/persistance-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/dependency/persistance-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/web/target/dependency/persistance-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/lib/persistance-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/lib/persistance-1.0-SNAPSHOT.jar" />
@@ -27,34 +11,26 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/dependency/service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/web/target/dependency/service-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/lib/service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/lib/service-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/persistance/src/main/java/com/softserve/edu/entity/Job.java" afterPath="$PROJECT_DIR$/persistance/src/main/java/com/softserve/edu/entity/Job.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/java/com/softserve/edu/controller/ParkController.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/softserve/edu/controller/ParkController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/java/com/softserve/edu/config/WebApp.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/softserve/edu/config/WebApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/java/com/softserve/edu/controller/WelcomeController.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/softserve/edu/controller/WelcomeController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/about.html" afterPath="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/admin-controller.js" afterPath="$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/admin-controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/templates/pages/welcome/about.html" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/templates/pages/welcome/about.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/js/controllers/admin-controller.js" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/js/controllers/admin-controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/webapp/app/js/services/admin-service.js" afterPath="$PROJECT_DIR$/web/src/main/webapp/app/js/services/admin-service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/js/app.js" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/templates/pages/welcome/home.html" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/templates/pages/welcome/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/webapp/app/index.html" afterPath="$PROJECT_DIR$/web/src/main/webapp/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/admin/index.html" afterPath="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/admin/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/user/index.html" afterPath="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/user/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/index.html" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/templates/pages/admin/index.html" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/templates/pages/admin/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/login.html" afterPath="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/templates/pages/welcome/login.html" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/templates/pages/welcome/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/persistance/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/persistance/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/service/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/web/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pom.xml" afterPath="$PROJECT_DIR$/web/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/registration.html" afterPath="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/registration.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/templates/pages/welcome/registration.html" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/templates/pages/welcome/registration.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/webapp/app/images/css/theme.css" afterPath="$PROJECT_DIR$/web/src/main/webapp/app/images/css/theme.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/images/css/theme.css" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/images/css/theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/user-controller.js" afterPath="$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/user-controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/webapp/app/js/services/user-service.js" afterPath="$PROJECT_DIR$/web/src/main/webapp/app/js/services/user-service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web.iml" afterPath="$PROJECT_DIR$/web/web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/welcome-controller.js" afterPath="$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/welcome-controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/webapp/app/bower-components/bootstrap/less/type.less" afterPath="$PROJECT_DIR$/web/src/main/webapp/app/bower-components/bootstrap/less/type.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/js/services/user-service.js" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/js/services/user-service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/js/controllers/welcome-controller.js" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/app/js/controllers/welcome-controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="park-system.iws" />
@@ -87,101 +63,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.8461537" vertical-offset="792" max-vertical-offset="1751">
-              <caret line="54" column="72" selection-start-line="54" selection-start-column="72" selection-end-line="54" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="welcome-service.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/js/services/welcome-service.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user-service.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/js/services/user-service.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="357">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="welcome-controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/welcome-controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/user/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="306">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="admin-controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/admin-controller.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user-controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/user-controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/admin/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1037">
-              <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="500">
-              <caret line="0" column="51" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
+            <state vertical-scroll-proportion="1.292" vertical-offset="0" max-vertical-offset="1258">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -195,8 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/persistance/src/main/java/com/softserve/edu/Main.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/softserve/edu/service/impl/WelcomeServiceImpl.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/softserve/edu/service/WelcomeService.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/softserve/edu/config/WebConfig.java" />
         <option value="$PROJECT_DIR$/service/src/main/java/com/softserve/edu/config/ServiceConfig.java" />
@@ -229,8 +123,6 @@
         <option value="$PROJECT_DIR$/web/src/main/webapp/app/admin.html" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/app/user.html" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/index.html" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/login.html" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/registration.html" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/softserve/edu/controller/ParkController.java" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/admin/util/create-job.html" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/app/hello.html" />
@@ -238,14 +130,18 @@
         <option value="$PROJECT_DIR$/web/src/main/webapp/app/js/services/user-service.js" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/user-controller.js" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/user/index.html" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/app/images/css/theme.css" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/app/js/app.js" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/about.html" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/app/index.html" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/welcome-controller.js" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/admin-controller.js" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/admin/index.html" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/home.html" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/registration.html" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/app/index.html" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/login.html" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/about.html" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/admin-controller.js" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/app/bower-components/bootstrap/less/type.less" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/app/bower-components/bootstrap/less/variables.less" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/app/images/css/theme.css" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/admin/index.html" />
       </list>
     </option>
   </component>
@@ -1267,11 +1163,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mm\park-system\web\src\main\webapp\app\images" />
       <recent name="D:\mm\park-system\web\src\main\java\com\softserve\edu\config" />
       <recent name="D:\project\park-system\web\src\main\webapp\app" />
       <recent name="D:\project\park-system\web\src\main\webapp\app\js\vendor" />
       <recent name="D:\project\park-system" />
-      <recent name="D:\project\park-system\web\src\main\webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\mm\park-system\web\src\main\webapp\app" />
@@ -1653,7 +1549,7 @@
       <workItem from="1440062710716" duration="10426000" />
       <workItem from="1440074979089" duration="27477000" />
       <workItem from="1440513618810" duration="626000" />
-      <workItem from="1440580010056" duration="40293000" />
+      <workItem from="1440580010056" duration="59743000" />
     </task>
     <task id="LOCAL-00001" summary="add entities">
       <created>1439545721099</created>
@@ -1727,11 +1623,17 @@
       <option name="project" value="LOCAL" />
       <updated>1440592363603</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add pages">
+      <created>1440685134707</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1440685134707</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151741000" />
+    <option name="totallyTimeSpent" value="171191000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -1755,7 +1657,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1776,7 +1678,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49755302" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.8021622" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4010811" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4010811" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24840085" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -1931,36 +1833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/persistance/src/main/java/com/softserve/edu/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/persistance/src/main/java/com/softserve/edu/entity/util/JobType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/persistance/src/main/java/com/softserve/edu/entity/Job.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1428">
-          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1172#1173#0" expanded="false" />
-            <element signature="e#1206#1207#0" expanded="false" />
-            <element signature="e#1260#1261#0" expanded="false" />
-            <element signature="e#1306#1307#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/com/softserve/edu/service/WelcomeService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
@@ -2044,14 +1916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/images/css/theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3537" max-vertical-offset="4114">
-          <caret line="220" column="22" selection-start-line="220" selection-start-column="22" selection-end-line="220" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
@@ -2064,38 +1928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
           <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="272">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/registration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="459">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="357">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/user/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="306">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -2116,14 +1948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.8461537" vertical-offset="792" max-vertical-offset="1751">
-          <caret line="54" column="72" selection-start-line="54" selection-start-column="72" selection-end-line="54" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/welcome-controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
@@ -2134,24 +1958,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/user-controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+        <state vertical-scroll-proportion="0.3231939" vertical-offset="0" max-vertical-offset="526">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/admin-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/admin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
-          <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -2159,7 +1967,161 @@
     <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="238">
-          <caret line="0" column="51" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
+          <caret line="0" column="49" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.136" vertical-offset="0" max-vertical-offset="500">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persistance/src/main/java/com/softserve/edu/entity/util/UserStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persistance/src/main/java/com/softserve/edu/entity/util/PlantType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.204" vertical-offset="0" max-vertical-offset="500">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/welcome/registration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.408" vertical-offset="0" max-vertical-offset="500">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persistance/src/main/java/com/softserve/edu/entity/Job.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25855514" vertical-offset="204" max-vertical-offset="1309">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persistance/src/main/java/com/softserve/edu/entity/util/JobType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.064638786" vertical-offset="0" max-vertical-offset="526">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persistance/src/main/java/com/softserve/edu/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/user/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.306" vertical-offset="0" max-vertical-offset="500">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/bower-components/bootstrap/less/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36280137" vertical-offset="7657" max-vertical-offset="14195">
+          <caret line="469" column="41" selection-start-line="469" selection-start-column="41" selection-end-line="469" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/bower-components/bootstrap/less/type.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42135477" vertical-offset="1707" max-vertical-offset="5134">
+          <caret line="122" column="24" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/images/banner.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/images/job-img.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/web-forms.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4470457" vertical-offset="7572" max-vertical-offset="10370">
+          <caret line="469" column="22" selection-start-line="469" selection-start-column="22" selection-end-line="469" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/bower-components/bootstrap/dist/css/bootstrap-theme.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.115384616" vertical-offset="0" max-vertical-offset="884">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/bower-components/bootstrap/dist/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.115384616" vertical-offset="0" max-vertical-offset="884">
+          <caret line="6" column="52653" selection-start-line="6" selection-start-column="52653" selection-end-line="6" selection-end-column="52653" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52698046" vertical-offset="663" max-vertical-offset="1751">
+          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="78" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/js/controllers/admin-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/images/css/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="891" max-vertical-offset="4352">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/app/templates/pages/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.292" vertical-offset="0" max-vertical-offset="1258">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>

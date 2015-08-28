@@ -3,8 +3,6 @@ angular.module('ParkSystem')
         $scope.registrationInfo = {};
         $rootScope.show ={};
 
-        $rootScope.admin = [true, true, true, true,true];
-        
         init();
         function init(){
             $rootScope.hide = false;

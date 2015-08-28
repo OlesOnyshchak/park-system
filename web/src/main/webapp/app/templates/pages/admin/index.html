@@ -1,55 +1,68 @@
-<div class="users-wrapper bg-success">
-    <div ng-hide="admin[0]">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-sm-offset-2 text-center" ng-hide="myVar">
-                    <h2>New Job</h2>
+<div ng-hide="admin[0]" class="text-center job">
 
-                    <p><input type="name" placeholder="name" class="form-control" ng-model="createJob.name"></p>
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1 ">
+            <div class="col-md-2 text-center">
+                <input placeholder="name" class="form-control huge-spacer" ng-model="createJob.name">
+            </div>
 
-                    <p><input type="jobType" placeholder="type" class="form-control" ng-model="createJob.jobType"></p>
+            <div class="col-md-2 text-center">
+                <select class="form-control selectpicker huge-spacer" ng-model="createJob.jobType">
+                    <option>Plant</option>
+                    <option>Remove</option>
+                    <option>Treat</option>
+                </select>
+            </div>
 
-                    <p><input type="jobDesc" placeholder="description" class="form-control"
-                              ng-model="createJob.description"></p>
-
-                    <p><input type="personQuantity" placeholder="person quantity" class="form-control" ng-model="createJob.quantity">
-                    </p>
-
-                    <p class="text-center">
-                        <button ng-click="saveJob(createJob)" class="btn  btn-default">
-                            save
-                        </button>
-                    <p>
+            <div class="col-md-2 huge-spacer text-center">
+                <div class="input-group">
+                <span class="input-group-addon" id="plus">
+                    <i class="glyphicon glyphicon-plus"></i>
+                </span>
+                    <input type="text" class="form-control" placeholder="quantity" aria-describedby="plus minus">
+                <span class="input-group-addon" id="minus">
+                    <i class="glyphicon glyphicon-minus"></i>
+                </span>
                 </div>
+            </div>
+
+            <div class="col-md-2 text-center">
+                <input placeholder="choose plant by name" class="form-control huge-spacer"
+                       ng-model="createJob.plantName"/>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <input placeholder="description" class="form-control huge-spacer" ng-model="createJob.description"/>
             </div>
         </div>
     </div>
 
-    <div ng-hide="admin[4]">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-sm-offset-2 text-center" ng-hide="myVar">
-                    <h2>New plant</h2>
-
-                    <p><input type="name" placeholder="name" class="form-control" ng-model="addPlant.name"></p>
-
-                    <p><input type="jobType" placeholder="type" class="form-control" ng-model="addPlant.plantType"></p>
-
-                    <p><input type="jobDesc" placeholder="description" class="form-control"
-                              ng-model="addPlant.description"></p>
-
-                    <p class="text-center">
-                        <button ng-click="savePlant(addPlant)" class="btn btn-default">
-                            save
-                        </button>
-                    <p>
-                </div>
-            </div>
-        </div>
+    <div class="text-center">
+        <button ng-click="saveJob(createJob)" class="btn  btn-default spacer">save</button>
     </div>
 
+
+    <div ng-hide="admin[4]" class="col-sm-6 col-sm-offset-3 text-center users-wrapper bg-success">
+        <h2>New plant</h2>
+
+        <p><input type="name" placeholder="name" class="form-control" ng-model="addPlant.name"></p>
+
+        <p><input type="jobType" placeholder="type" class="form-control"
+                  ng-model="addPlant.plantType"></p>
+
+        <p><input type="jobDesc" placeholder="description" class="form-control"
+                  ng-model="addPlant.description"></p>
+
+        <label><input type="radio" name="optradio" ng-model="createJob.jobType">Tree</label>
+        <label><input type="radio" name="optradio" ng-model="createJob.jobType">Bush</label>
+        <label><input type="radio" name="optradio" ng-model="createJob.jobType">Grass</label>
+
+        <p class="text-center">
+            <button ng-click="savePlant(addPlant)" class="btn btn-default">
+                save
+            </button>
+        <p>
     </div>
 </div>
-
 
 

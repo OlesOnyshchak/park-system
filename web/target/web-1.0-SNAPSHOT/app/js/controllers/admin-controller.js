@@ -27,7 +27,7 @@ angular.module('ParkSystem')
 
         $scope.saveJob = function(reg) {
             console.log(reg);
-            AdminService.create(reg);
+      /*      AdminService.create(reg);*/
         };
 
     }]);
