@@ -2,7 +2,9 @@
 
 h1,h2,h3,h4,h5{
 	font-weight: bold;
-	font-family: Lato,Arial,Helvetica,sans-serif;
+
+	font-family: 'Tangerine', serif;
+	font-size: 48px;
 }
 h1{
 	font-size: 50px;
@@ -21,7 +23,7 @@ a:hover,a:focus{
 }
 
 .huge-spacer {
-	margin-top: 300px;
+	margin-top: 350px;
 	margin-bottom: 20px;
 }
 

@@ -1,5 +1,7 @@
 <div ng-hide="admin[0]" class="text-center job">
 
+    <h2>It's time to create a new job</h2>
+
     <div class="row">
         <div class="col-md-10 col-md-offset-1 ">
             <div class="col-md-2 text-center">
@@ -16,13 +18,17 @@
 
             <div class="col-md-2 huge-spacer text-center">
                 <div class="input-group">
-                <span class="input-group-addon" id="plus">
-                    <i class="glyphicon glyphicon-plus"></i>
-                </span>
-                    <input type="text" class="form-control" placeholder="quantity" aria-describedby="plus minus">
-                <span class="input-group-addon" id="minus">
-                    <i class="glyphicon glyphicon-minus"></i>
-                </span>
+
+                    <span class="input-group-addon" id="plus">
+                        <a ng-click="add()"><i class="glyphicon glyphicon-plus"></i></a>
+                    </span>
+
+                    <input type="text" class="form-control" placeholder="quantity" aria-describedby="plus minus" value="{{number}}" ng-model = "number">
+
+                    <span class="input-group-addon" id="minus">
+                          <a ng-click="minus()"><i class="glyphicon glyphicon-minus " style="color:red"></i></a>
+                    </span>
+
                 </div>
             </div>
 
@@ -30,7 +36,6 @@
                 <input placeholder="choose plant by name" class="form-control huge-spacer"
                        ng-model="createJob.plantName"/>
             </div>
-
             <div class="col-md-4 text-center">
                 <input placeholder="description" class="form-control huge-spacer" ng-model="createJob.description"/>
             </div>

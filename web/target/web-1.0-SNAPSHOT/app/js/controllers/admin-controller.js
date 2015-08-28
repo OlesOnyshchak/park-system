@@ -12,6 +12,18 @@ angular.module('ParkSystem')
             $rootScope.hide = true;
         }
 
+        $scope.number = 0;
+
+        $scope.add = function(){
+            $scope.number++;
+        };
+
+        $scope.minus = function(){
+            if($scope.number>0){
+                $scope.number--;
+            }
+        };
+
         $rootScope.admin = [true, true, true, true,true];
 
         $rootScope.setActiveTab = function(order){
@@ -27,7 +39,7 @@ angular.module('ParkSystem')
 
         $scope.saveJob = function(reg) {
             console.log(reg);
-      /*      AdminService.create(reg);*/
+            AdminService.create(reg);
         };
 
     }]);
