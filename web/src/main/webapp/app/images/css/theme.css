@@ -73,6 +73,10 @@ img{max-width: 100%;}
 .job{
 	background: url(../job-img.jpg);
 }
+
+.plant{
+	background: url(../plant-img.jpg);
+}
 .banner-contentarea{
 	display: table;width: 100%;
 	height: 900px;

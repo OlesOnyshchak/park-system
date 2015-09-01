@@ -1,4 +1,3 @@
-/*
 package com.softserve.edu.config;
 
 import org.springframework.core.annotation.Order;
@@ -7,4 +6,4 @@ import org.springframework.security.web.context.AbstractSecurityWebApplicationIn
 @Order(2)
 public class SecurityWebApplicationInitializer extends AbstractSecurityWebApplicationInitializer {
 }
-*/
+

@@ -46,16 +46,16 @@
         <button ng-click="saveJob(createJob)" class="btn  btn-default spacer">save</button>
     </div>
 
-
-    <div ng-hide="admin[4]" class="col-sm-6 col-sm-offset-3 text-center users-wrapper bg-success">
+</div>
+    <div ng-hide="admin[4]" class="col-sm-10 col-sm-offset-3 text-center users-wrapper bg-success plant">
         <h2>New plant</h2>
 
-        <p><input type="name" placeholder="name" class="form-control" ng-model="addPlant.name"></p>
+        <p><input type="name" placeholder="name" class="form-control huge-spacer" ng-model="addPlant.name"></p>
 
-        <p><input type="jobType" placeholder="type" class="form-control"
+        <p><input type="jobType" placeholder="type" class="form-control huge-spacer"
                   ng-model="addPlant.plantType"></p>
 
-        <p><input type="jobDesc" placeholder="description" class="form-control"
+        <p><input type="jobDesc" placeholder="description" class="form-control huge-spacer"
                   ng-model="addPlant.description"></p>
 
         <label><input type="radio" name="optradio" ng-model="createJob.jobType">Tree</label>
@@ -68,6 +68,6 @@
             </button>
         <p>
     </div>
-</div>
+
 
 

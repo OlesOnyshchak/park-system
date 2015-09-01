@@ -1,9 +1,10 @@
 com\softserve\edu\controller\ParkController.class
 com\softserve\edu\controller\AdminController.class
 com\softserve\edu\config\WebApp.class
-com\softserve\edu\config\AuthSuccess.class
+com\softserve\edu\config\AjaxAuthenticationSuccessHandler.class
+com\softserve\edu\config\SecurityConfig.class
 com\softserve\edu\controller\WelcomeController.class
-com\softserve\edu\config\AuthFailure.class
 com\softserve\edu\dto\welcome\NewUserDTO.class
+com\softserve\edu\config\SecurityWebApplicationInitializer.class
 com\softserve\edu\dto\admin\NewJobDTO.class
 com\softserve\edu\config\WebConfig.class
